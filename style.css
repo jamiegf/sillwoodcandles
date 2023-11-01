@@ -148,6 +148,12 @@ h3 {
     margin: 1rem;
     padding: 1rem;
 }
+.gallery-container  {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    margin: 1rem;
+}
 .gallery-container img {
     height: 100%;
     width:100%;
